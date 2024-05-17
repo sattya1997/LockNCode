@@ -125,15 +125,28 @@ button:hover {
   }
 
   h1 {
-    font-size: 1.5em; /* Smaller font size on mobile */
+    font-size: 2.1em; /* Smaller font size on mobile */
   }
 
   label, .file, .text {
-    font-size: 0.9em; /* Smaller font size on mobile */
+    font-size: 1.9em; /* Smaller font size on mobile */
   }
 
   #passphraseInput {
-    height: 60px; /* Larger touch area for better accessibility */
+    height: 100px; /* Larger touch area for better accessibility */
   }
 }
 
+.textarea-container {
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 100px; /* Adjust height as needed */
+  resize: vertical;
+}
