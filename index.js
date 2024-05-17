@@ -12,12 +12,25 @@
         <span><p id="selected-files-text" class="text">0 file selected</p></span>
       </div>
       <input type="file" id="fileInput" multiple />
+      <div>
+        <label for="passphraseInput">Enter Passphrase:</label>
+        <input type="password" id="passphraseInput" placeholder="Passphrase" />
+      </div>
       <div class="button-container">
         <button onclick="encryptFiles()">Encrypt</button>
         <button onclick="decryptFiles()">Decrypt</button>
       </div>
     </div>
     <script>
+      function getPassphrase() {
+        const passphraseInput = document.getElementById("passphraseInput");
+        const passphrase = passphraseInput.value.trim();
+        if (!passphrase) {
+          alert("Please enter a passphrase.");
+          return null;
+        }
+        return passphrase;
+      }
       function generateUniqueFilename(originalFilename) {
         const timestamp = new Date().toISOString().replace(/[-:.]/g, ""); // Get current date and time
         const extension = originalFilename.split(".")[1];
@@ -25,6 +38,11 @@
       }
  
       function processFiles(encrypt) {
+        const passphrase = getPassphrase();
+        if (!passphrase) {
+          prompt("Please enter a passphrase to proceed:");
+          return;
+        }
         const fileInput = document.getElementById("fileInput");
         const files = fileInput.files;
  
