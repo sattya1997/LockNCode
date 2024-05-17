@@ -129,14 +129,22 @@ button:hover {
     font-size: 40px; /* Smaller font size on mobile */
   }
 
-  label, .file, .text {
+  label{
     font-size: 36px; /* Smaller font size on mobile */
+  }
+  
+  .file {
+    font-size: 36px;
+  }
+  
+  .text {
+    font-size: 36px;
   }
 
   #passphraseInput {
     width 100%;
-    font-size: 32px;
-    height: 150px; /* Larger touch area for better accessibility */
+    font-size: 36px;
+    height: 200px; /* Larger touch area for better accessibility */
   }
 }
 
