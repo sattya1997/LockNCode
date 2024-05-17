@@ -86,7 +86,6 @@
  
               reader.onload = function (event) {
                 const encryptedText = event.target.result; // Read the file content
-                const passphrase = "your-secret-passphrase"; // Replace with your own passphrase
  
                 // Decrypt the text using CryptoJS (AES decryption)
                 const bytes = CryptoJS.AES.decrypt(encryptedText, passphrase);
