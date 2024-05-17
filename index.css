@@ -113,9 +113,8 @@ button:hover {
     font-size: 26px;
   }
   
-  
-#passphraseInput {
-  width: 90%;
-  height : 60px;
-}
+  #passphraseInput {
+    width: 90%;
+    height : 60px;
+  }
 }
