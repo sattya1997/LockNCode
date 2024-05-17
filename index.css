@@ -115,11 +115,11 @@ button:hover {
 
 #passphraseInput {
   text-align: center;
-  width: 80%;
-  height : 50px;
+  width: 60%;
+  height : 40px;
 }
 
-/*@media (max-width: 500px) {
+@media (max-width: 500px) {
   .container {
     width: 98%;
   }
@@ -130,7 +130,6 @@ button:hover {
   
   #passphraseInput {
     width: 90%;
-    height : 60px;
+    height : 90px;
   }
 }
-*/
