@@ -120,11 +120,11 @@ button:hover {
 
 @media (max-width: 500px) {
   .container {
-    max-width: 98%; /* Set to full width */
+    width: 98%; /* Set to full width */
   }
 
   body {
-    font-size: 26px;
+    font-size: 36px;
   }
   
   #passphraseInput {
