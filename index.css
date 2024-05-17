@@ -98,6 +98,7 @@ button:hover {
 }
 
 #passphraseInput {
+  text-align: center;
   width: 50px;
   height : 40px;
 }
