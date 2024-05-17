@@ -15,7 +15,7 @@ body {
   transition: transform 0.3s ease;
   justify-content: center;
 }
- 
+
 .container:hover {
   transform: scale(1.02);
 }
@@ -63,7 +63,7 @@ button:hover {
   border-radius: 3px;
   background-color: #f9f9f9;
 }
- 
+
 .file {
   cursor: pointer;
   border-radius: 4px;
@@ -78,7 +78,7 @@ button:hover {
   background-color: #89c2ff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
- 
+
 .file:active {
   transform: scale(0.96);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -91,7 +91,7 @@ button:hover {
   width: fit-content;
   margin-left: 10px;
 }
- 
+
 .button-container {
   display: flex;
   justify-content: center;
