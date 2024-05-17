@@ -94,12 +94,12 @@ button:hover {
 
 .button-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 #passphraseInput {
   text-align: center;
-  width: 70%;
+  min-width: 200px%;
   height : 40px;
 }
 
@@ -109,11 +109,5 @@ button:hover {
   }
 
   body {
-    font-size: 22px; /* Adjust font size as needed */
-  }
-  
-  #passphraseInput {
-    width: 80%;
-    height: 50px;
-  }
+    font-size: 22px;
 }
