@@ -113,8 +113,8 @@ button:hover {
 
 #passphraseInput {
   text-align: center;
-  width: 100%; /* Full width on mobile */
-  height: 40px;
+  width: 80%; /* Full width on mobile */
+  height: 50px;
   margin-bottom: 20px; /* Add some space below */
 }
 
@@ -125,15 +125,17 @@ button:hover {
   }
 
   h1 {
-    font-size: 2.1em; /* Smaller font size on mobile */
+    font-size: 36px; /* Smaller font size on mobile */
   }
 
   label, .file, .text {
-    font-size: 1.9em; /* Smaller font size on mobile */
+    font-size: 32px; /* Smaller font size on mobile */
   }
 
   #passphraseInput {
-    height: 100px; /* Larger touch area for better accessibility */
+    width 100%;
+    font-size: 32px;
+    height: 150px; /* Larger touch area for better accessibility */
   }
 }
 
