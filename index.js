@@ -61,7 +61,6 @@
  
               reader.onload = function (event) {
                 const originalText = event.target.result;
-                const passphrase = "your-secret-passphrase";
  
                 // Encrypt the text using CryptoJS (AES encryption)
                 const encryptedText = CryptoJS.AES.encrypt(
